@@ -11,8 +11,8 @@ const AppRoutes = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
       </Route>
-      <Route path="/" element={<MainLayoutTwo />}>
-        <Route path="/home-two" element={<HomeTwo />} />
+      <Route path="/home-two" element={<MainLayoutTwo />}>
+        <Route index element={<HomeTwo />} />
       </Route>
     </Routes>
   );
